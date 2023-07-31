@@ -30,30 +30,30 @@
       <groupId>io.grpc</groupId>
       <artifactId>grpc-netty</artifactId>
       <version>1.16.1</version>
-  </dependency>
-  <dependency>
+    </dependency>
+    <dependency>
       <groupId>io.grpc</groupId>
       <artifactId>grpc-protobuf</artifactId>
       <version>1.16.1</version>
-  </dependency>
-  <dependency>
+    </dependency>
+    <dependency>
       <groupId>io.grpc</groupId>
       <artifactId>grpc-stub</artifactId>
       <version>1.16.1</version>
-  </dependency>
+    </dependency>
 
   </dependencies>
 
   <build>
     <plugins>
-        <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>exec-maven-plugin</artifactId>
-            <version>3.0.0</version>
-            <configuration>
-                <mainClass>br.studies.com.App</mainClass>
-            </configuration>
-        </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.0.0</version>
+        <configuration>
+          <mainClass>br.studies.com.App</mainClass>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 
